@@ -1,11 +1,11 @@
 p {
-    color: #0e5135	;
+    color: #049cd8	;
     font-family: fantasy;
     font-size: 5em;
 }
 
 p:hover {
-    color: #0e5135	;
+    color: #e4000f;
     font-family: fantasy;
     font-size: 5em;
     -webkit-text-stroke: 1px #d4ce46;
