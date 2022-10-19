@@ -13,6 +13,6 @@ app.get('/', getHTML);
 app.get('/css', getCSS);
 app.get('/js', getJS);
 
-const port = 4000//process.env.PORT //we don't have an env file but Heroku does so this reads from Heroku
+const port = process.env.PORT //we don't have an env file but Heroku does so this reads from Heroku
 
 app.listen(port, console.log(`Server running on ${port}`))
