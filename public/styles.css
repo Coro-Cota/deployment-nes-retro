@@ -1,0 +1,16 @@
+p {
+    color: #0e5135	;
+    font-family: fantasy;
+    font-size: 5em;
+}
+
+p:hover {
+    color: #0e5135	;
+    font-family: fantasy;
+    font-size: 5em;
+    -webkit-text-stroke: 1px #d4ce46;
+}
+
+img:hover {
+    border: 2px solid #d4ce46;
+}
