@@ -1,7 +1,7 @@
 let nes = document.querySelector('img');
 
-const helloAlert = evt => {
+const secretPurchase = evt => {
     alert(`You've just purchased 200 copies of E.T. for Atari!`);
 }
 
-nes.addEventListener('click', helloAlert);
+nes.addEventListener('click', secretPurchase);
